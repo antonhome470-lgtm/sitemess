@@ -240,7 +240,7 @@ export default function App() {
                         "text-[10px] mt-1 flex justify-end",
                         isMe ? "text-blue-100" : "text-slate-400"
                       )}>
-                        {format(msg.timestamp, 'HH:mm')}
+                        {format(new Date(msg.timestamp), 'HH:mm')}
                       </div>
                     </div>
                   </div>
